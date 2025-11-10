@@ -156,34 +156,7 @@ Decentralized governance with efficient fund management:
 - **Developer**: $29/month - Unlimited conversions, 10 apps, AI assistant
 - **Enterprise**: Custom pricing - Dedicated support, unlimited apps
 
-## 🚀 Getting Started
-
-### Quick Start:
-```bash
-# Install the CLI
-npm install -g @freeflow/cli
-
-# Initialize your project
-freeflow init my-app
-
-# Deploy to FREEFLOW
-freeflow deploy
-```
-
-### Using SideShift for Payments:
-```javascript
-import { FreeFlow } from '@freeflow/sdk';
-
-const freeflow = new FreeFlow({ apiKey: 'your-api-key' });
-
-// Convert cryptocurrency
-const conversion = await freeflow.convert({
-  from: 'BTC',
-  to: 'ETH',
-  amount: 0.1,
-  settleAddress: '0x...'
-});
-```
+ 
 
 ## 📖 Documentation
 
@@ -214,23 +187,8 @@ Comprehensive documentation available at `/docs` including:
 | Data Ownership | Platform | User |
 | Global Access | Restricted | Universal |
 
-## 🤝 Contributing
+ 
 
-We welcome contributions! Please see our contributing guidelines for more information.
-
-## 📧 Support
-
-- Documentation: [/docs](/docs)
-- Email: support@freeflow.network
-- Discord: [Join our community](https://discord.gg/freeflow)
-- Twitter: [@FreeFlowNet](https://twitter.com/freeflownet)
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
----
-
-Built with ❤️ by the FREEFLOW team
+Built with ❤️  
 
 **The Internet, Reborn on the Blockchain.**
